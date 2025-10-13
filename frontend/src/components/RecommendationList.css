@@ -1,0 +1,105 @@
+.recommendation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rec-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+}
+
+.rec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.rec-image {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rec-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.placeholder {
+  font-size: 2.5rem;
+}
+
+.rec-info h4 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+
+.rec-info .category {
+  font-size: 0.8rem;
+  color: #45a29e;
+  margin-bottom: 4px;
+}
+
+.rec-info .price {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.rec-info .score {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.rec-info .explanation {
+  font-size: 0.75rem;
+  color: #777;
+}
+.rec-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rec-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.explain-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #45a29e;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.explain-btn:hover {
+  background-color: #397b73;
+}
+
+.explanation {
+  font-size: 0.85rem;
+  color: #555;
+  padding: 6px 12px;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  margin-top: 0;
+}
