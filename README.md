@@ -3,6 +3,7 @@ E-Commerce LLM-Based Recommender System
 
 This project is an AI-powered E-Commerce Recommender System that combines a FastAPI backend with a React frontend. It uses LLM (Google Gemini) to provide explanations for product recommendations.
 
+Explanation - https://youtu.be/Gprz3R82Z6M
 
 Tech Stack - 
 
